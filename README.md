@@ -2,6 +2,7 @@
 This program calculates sum of numbers placed on diagonals of clockwise squared numbers spiral.
   For spiral 5x5 (side size equal 5):
 
+||||||
 | :---: | :---: | :---: | :---: | :---: |
 | **21** | 22 | 23 | 24 | **25** |
 | 20 | **7** | 8 | **9** | 10 |
