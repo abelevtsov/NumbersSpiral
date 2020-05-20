@@ -12,7 +12,7 @@ namespace NumbersSpiral
     /// 17 16 15 14 13
     /// sum will be: 21 + 7 + 1 + 3 + 13 + 17 + 5 + 9 + 25 = 101
     /// </summary>
-    public class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {
@@ -21,8 +21,7 @@ namespace NumbersSpiral
                 Console.WriteLine();
                 Console.WriteLine("Please enter spiral side size:");
                 var n = Console.ReadLine();
-                int number;
-                if (int.TryParse(n, out number) && number % 2 == 1)
+                if (int.TryParse(n, out var number) && number % 2 == 1)
                 {
                     Console.WriteLine("Sum is: " + CalcSum(number));
                     Console.WriteLine("For exit press ESC, any key for continue");
